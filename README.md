@@ -26,3 +26,8 @@ Mở Terminal / Command Prompt và chạy lệnh sau:
 ```bash
 git clone [https://github.com/anhquanabczy/Smishing-SMS-using-XGBoost.git](https://github.com/anhquanabczy/Smishing-SMS-using-XGBoost.git)
 cd Smishing-SMS-using-XGBoost
+## Cài đặt các thư viện lõi
+pip install -r requirements.txt
+
+#3 Cài đặt thêm thư viện hỗ trợ tìm kiếm domain (nếu cần thiết)
+pip install ddgs
