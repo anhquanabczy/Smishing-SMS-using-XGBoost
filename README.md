@@ -19,16 +19,21 @@ Dự án ứng dụng mô hình học máy **XGBoost** để phát hiện và ph
 
 ---
 
-## ⚙️ Hướng dẫn cài đặt
+## ⚙️ Hướng dẫn cài đặt và Chạy ứng dụng
 
 **Bước 1: Clone dự án về máy**
 Mở Terminal / Command Prompt và chạy lệnh sau:
 ```bash
 git clone [https://github.com/anhquanabczy/Smishing-SMS-using-XGBoost.git](https://github.com/anhquanabczy/Smishing-SMS-using-XGBoost.git)
 cd Smishing-SMS-using-XGBoost
----
-## Cài đặt các thư viện lõi
+```
+
+**Bước 2: Cài đặt các thư viện lõi**
+```bash
 pip install -r requirements.txt
+```
+
+**Bước 3: Khởi chạy ứng dụng**
 ```bash
 streamlit run Smishing/app_ui.py
----
+```
