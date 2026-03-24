@@ -12,7 +12,7 @@ Dự án ứng dụng mô hình học máy **XGBoost** để phát hiện và ph
 
 ---
 
-## 🛠️ Yêu cầu hệ thống (Prerequisites)
+## 🛠️ Yêu cầu hệ thống
 Để chạy dự án này, máy tính của bạn cần cài đặt sẵn:
 * [Python](https://www.python.org/downloads/) (Khuyến nghị bản 3.8 trở lên)
 * [Git](https://git-scm.com/)
@@ -26,8 +26,9 @@ Mở Terminal / Command Prompt và chạy lệnh sau:
 ```bash
 git clone [https://github.com/anhquanabczy/Smishing-SMS-using-XGBoost.git](https://github.com/anhquanabczy/Smishing-SMS-using-XGBoost.git)
 cd Smishing-SMS-using-XGBoost
+---
 ## Cài đặt các thư viện lõi
 pip install -r requirements.txt
-
-#3 Cài đặt thêm thư viện hỗ trợ tìm kiếm domain (nếu cần thiết)
-pip install ddgs
+```bash
+streamlit run Smishing/app_ui.py
+---
